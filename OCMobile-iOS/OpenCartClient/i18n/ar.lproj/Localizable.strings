@@ -1,0 +1,540 @@
+/* 
+  Localizable.strings
+  OpenCartClient
+
+  Created by Sam Chen on 8/28/16.
+  Copyright © 2016 opencart.cn. All rights reserved.
+*/
+
+// AppDelegate
+"toast_app_delegate_token_invalid" = "تم تغيير الرمز ، يرجى إعادة تشغيل التطبيق.";
+"button_app_delegate_restart" = "Re-launch";
+"toast_token_expired" = "انتهت صلاحية الحساب ، الرجاء تسجيل الدخول مرة أخرى.";
+
+// General
+"text_all" = "الكل";
+"text_search_placeholder" = "اكتب للبحث...";
+"text_cancel" = "إلغاء";
+"button_cancel" = "إلغاء";
+"text_ok" = "OK";
+"text_default" = "افتراضي";
+"text_delete" = "حذف";
+"text_empty_default" = "Empty...";
+"button_refresh" = "Refresh";
+"button_close" = "Close";
+"button_confirm" = "OK";
+"button_continue" = "Continue";
+"button_back" = "Back";
+"button_search" = "Search";
+"text_camera" = "Camera";
+"button_copy" = "Copy";
+"button_later" = "Later";
+"button_view_pdf" = "View PDF";
+"text_photo_album" = "Photo Album";
+"error_refresh_failed" = "Connection error, please try again";
+"label_select_location" = "Select location";
+"label_please_select" = "-- Select --";
+"button_send_sms" = "Send SMS";
+"label_sms_state_sending" = "Sending...";
+"toast_share_success" = "Share successful";
+"toast_share_failed" = "Share failed";
+"title_select_mobile_region" = "Select Country";
+"label_new_version_title" = "New Version";
+"text_new_version_message" = "New version found. Please update to the latst version.";
+"button_new_version" = "Update Now";
+"button_all" = "All";
+
+// Tabbar VC
+"text_tab_home" = "Home";
+"text_tab_search" = "Search";
+"text_tab_category" = "Category";
+"text_tab_cart" = "Cart";
+"text_tab_account" = "Account";
+"text_tab_discovery" = "Discovery";
+
+// Network
+"error_api_failed" = "API data error, please try again";
+"error_network_disconnected" = "No Internet connection";
+"error_unauthorized" = "Unauthorized, please sign in";
+"error_500" = "Server error, please try again";
+
+// Home VC
+"toast_home_load_failed" = "Load failed, please try again.";
+
+// Account VC
+"button_login" = "Log in / Sign up";
+"text_account_reward" = "نقاط مكافآتي";
+"text_account_coupon" = "بلدي القسائم";
+"text_account_orders" = "طلباتي";
+"text_account_return" = "العودة والخدمات";
+"text_account_wishlist" = "الأماني";
+"text_account_edit" = "تحرير الحساب";
+"text_account_password" = "تغيير كلمة السر";
+"text_account_address" = "دليل العناوين";
+"text_account_chat" = "Chat";
+"text_account_logout" = "Sign Out";
+"alert_logout" = "Are you sure you want to sign out?";
+"text_change_profile_picture" = "Profile Picture";
+"text_order_status_unpaid" = "غير مدفوع";
+"text_order_status_unshipped" = "غير المشحونة";
+"text_order_status_shipped" = "شحنها";
+"text_order_status_unreviewed" = "التعليقات";
+"text_order_status_wishlist" = "الأماني";
+"text_order_status_return" = "إرجاع";
+"text_unknown" = "Unknown";
+"text_none" = "None";
+
+// Account Wishlist VC
+"text_account_wishlist_title" = "Wishlist";
+"empty_wishlist_list" = "Wishlist is empty";
+
+// Account Login VC
+"text_account_login_title" = "Log In";
+"text_account_login_username" = "Account";
+"text_account_login_password" = "Password";
+"label_account_login_username" = "Email address";
+"label_account_login_telephone" = "Mobile number";
+"label_account_login_username_telephone" = "Email address/mobile number";
+"label_account_login_password" = "Password";
+"button_account_login" = "Log In";
+"button_account_login_register" = "New customer";
+"button_account_login_reset_password" = "Reset password";
+"toast_login_input_account" = "Please enter account";
+"toast_login_input_password" = "Please enter password";
+"toast_login_success" = "Welcome Logged in, welcome";
+"label_account_login_social" = " OR ";
+"toast_account_login_wechat" = "Wechat login failed, please try again.";
+"toast_account_login_qq" = "QQ login failed, please try again.";
+"toast_account_login_weibo" = "Weibo login failed, please try again.";
+"toast_account_login_error_format" = "Login failed, data format error.";
+"text_telephone_login" = "Mobile Login";
+
+// Account Connect VC
+"label_account_connect_vc_title" = "Connect Account";
+"label_account_connect_welcome" = "Welcome: %@";
+"label_account_connect_notice" = "Please connect your account to our system.";
+"label_account_connect_register" = "Don't have an account?";
+"button_account_connect_register" = "Sign Up";
+"label_account_connect_connect" = "I have an account";
+"button_account_connect_connect" = "Connect";
+
+// Account Register VC
+"label_field_type_email" = "Please enter Email address";
+"label_field_type_email_invalid" = "Email address is invalid";
+"label_field_type_name" = "Please enter your name";
+"label_field_type_fullname" = "Please enter your name";
+"label_field_type_firstname" = "Please enter your Firstname";
+"label_field_type_lastname" = "Please enter your Lastname";
+"label_field_type_company" = "Please enter company name";
+"label_field_type_mobile" = "Please enter mobile number";
+"label_field_type_mobile_invalid" = "Mobile number is invalid";
+"label_field_type_mobile_taken" = "Mobile number already registered, please login.";
+"label_field_type_telephone" = "Please enter telephone number";
+"label_field_type_sms_code" = "Please enter verification code";
+"label_field_type_city" = "Please enter city";
+"label_field_type_address" = "Please enter address";
+"label_field_type_address_1" = "Please enter address";
+"label_field_type_address_2" = "Please enter Address";
+"label_field_type_password" = "Please enter password";
+"label_field_type_newsletter" = "Newsletter";
+"label_field_type_department" = "-- Select department --";
+"toast_field_type_department_required" = "Please select department";
+"label_field_type_research" = "-- Select research field --";
+"toast_field_type_research_required" = "Please select research field";
+"label_field_type_location" = "-- Select location --";
+"toast_field_type_location_required" = "Please select your location";
+"toast_field_type_custom_field_required" = "%@ required!";
+"label_field_type_is_default" = "Default";
+"label_field_type_postcode" = "Please enter postcode";
+
+"text_account_register_email_title" = "Sign up by Email";
+"text_account_register_mobile_title" = "Sign up by Mobile";
+"label_account_register_firstname" = "Fullname";
+"label_account_register_newsletter" = "Newsletter";
+"label_account_register_input_telephone" = "Mobile";
+"toast_register_input_telephone" = "Please enter phone number";
+"toast_register_input_email" = "Please enter email address";
+"toast_register_email_invalid" = "Email address does not appear to be valid";
+"toast_register_input_telephone_invalid" = "Mobile number invalid, please check.";
+"toast_register_input_sms_code" = "Please enter verification code";
+"toast_register_input_firstname" = "Please enter full name";
+"toast_register_input_password" = "Please enter password";
+"toast_register_input_confirm" = "Please enter confirm password";
+"toast_register_input_password_diff" = "Password confirmation does not match password";
+"toast_register_telephone_taken" = "The mobile number is already registered";
+"toast_register_sms_sent" = "Verification code sent";
+"toast_register_sms_sent_error" = "Verification code not sent, try again";
+"text_register_sms_wait" = "Wait: %@ s";
+"toast_register_success" = "Welcome, you are registered!";
+
+// Account Edit VC
+"text_account_edit" = "Edit Account";
+"text_account_edit_firstname" = "Fullname";
+"text_account_edit_email" = "Email address";
+"text_account_edit_telephone" = "Telephone";
+"toast_account_edit_success" = "Account has been updated";
+
+// Account Password VC
+"text_account_password_title" = "Edit Password";
+"label_old_password" = "Old password";
+"label_new_password" = "New password";
+"label_new_password_confirm" = "Confirm password";
+"toast_enter_old_password" = "Please enter old password";
+"toast_enter_new_password" = "Please enter new password";
+"toast_password_change_success" = "Password has been updated";
+
+// Account Settings VC
+"text_account_setting_title" = "Settings";
+"label_account_setting_cache" = "Clear image cache";
+"label_account_setting_about" = "About us";
+"label_account_setting_language" = "Languages";
+"label_account_setting_cache_calculating" = "Calculating...";
+"toast_image_cache_clear_success" = "Image cache has been cleared";
+"toast_version_check" = "No new version";
+"toast_logout_success" = "You just signed out.";
+
+// Account About VC
+"text_about" = "About";
+"text_account_about_slogan" = "Shopping App designed for OpenCart";
+"text_account_about_copyright" = "Copyright 2015 - 2018";
+"text_account_about_link_title" = "www.opencart.cn";
+"text_account_about_link_url" = "https://www.opencart.cn";
+"text_account_about_company" = "opencart.cn";
+
+// Account Language VC
+"text_account_language_title" = "Languages";
+
+// Account Reset Password VC
+"text_account_reset_password_title" = "Reset Password";
+"button_account_reset_password_mobile" = "Reset password by mobile";
+"button_account_reset_password_email" = "Reset password by email";
+"help_account_reset_password_email" = "Please enter your email address, and click continue. You new password will be sent to you by email.";
+"help_account_reset_password_mobile" = "Please enter your mobile number, and click continue. You new password will be sent to you by SMS.";
+"label_account_reset_password_email" = "Email address";
+"label_account_reset_password_mobile" = "Mobile number";
+"button_account_reset_password_sms" = "Send SMS";
+"label_account_reset_password_sms" = "SMS code";
+"toast_telephone_not_registered" = "Phone number not registered, please check";
+"toast_new_password_sent" = "New password has been sent to your phone";
+"toast_new_password_sent_email" = "New password has been sent to your email";
+
+// Account Order List VC
+"text_order_list_title" = "Orders";
+"button_order_type_all" = "All";
+"button_order_type_unpaid" = "Unpaid";
+"button_order_type_unshipped" = "Unshipped";
+"button_order_type_shipped" = "Shipped";
+"empty_no_orders" = "No orders";
+"order_number" = "Order ID: %@";
+"text_order_date" = "Order date: %@";
+"order_qty_total" = "%d item(s), total: %@";
+"alert_finish_order" = "Are you sure to finish the order?";
+"button_finish_order" = "Finish Order";
+"toast_finish_order_success" = "The order has been finished";
+
+// Account Order Info VC
+"text_account_order_info_title" = "Order Details";
+"button_cancel_order" = "Cancel Order";
+"button_proceed_to_pay" = "Pay Now";
+"title_order_id" = "Order ID";
+"title_order_date" = "Order date";
+"alert_cancel_order" = "Are you sure to cancel this order?";
+"text_cancel_order" = "Cancel order";
+"toast_cancel_order_success" = "The order has been cancelled";
+
+// Account Order Tracks VC
+"text_shipment_track_title" = "Shipment Tracking";
+"empty_not_order_tracks" = "No shipment records yet";
+"text_shipped_by" = "Shipped by: %@";
+"text_shipment_track_id" = "Tracking ID: %@";
+
+// Payment Result VC
+"text_order_success_title" = "Order placed!";
+"text_payment_success_title" = "Payment successful!";
+"text_order_success_subtitle" = "Your order is confirmed. You can view order updates on your account";
+"text_payment_success_subtitle" = "You have completed your payment. You can view order updates on your account";
+"text_order_fail_title" = "Whoops";
+"text_payment_fail_title" = "Payment not completed!";
+"text_order_fail_subtitle" = "Order not completed. You can continue to confirm your order on order page";
+"text_payment_fail_subtitle" = "Still one step to complete your payment. You can continue your payment on your account";
+
+// Account Unreviewed VC
+"text_account_unreviewed_list_title" = "Unreviewed";
+"empty_no_unreviewed_items" = "No products to be reviewed";
+
+// Account Unreviewed Form VC
+"text_account_unreviewed_form_title" = "Review";
+"label_account_unreviewed_form_rating" = "Rating";
+"label_account_unreviewed_form_comment" = "Comment";
+"toast_rating_number_range" = "Rating value must be between 1 and 5";
+"toast_review_content_min" = "Please enter review message (5 - 200 words)";
+"toast_review_content_max" = "Please enter review message (5 - 200 words)";
+"toast_review_submit_success" = "Review submitted for approval";
+
+// Account Return List VC
+"text_account_return_list_title" = "Return Tickets";
+"empty_no_return" = "No return ticket yet";
+"text_return_id" = "Ticket ID: #%d";
+"text_status" = "Status: %@";
+
+// Account Return Info VC
+"text_account_return_info_title" = "Return Details";
+"title_return_description" = "Description";
+"title_return_progress" = "Status";
+"text_contact_with_phone" = "Contact: %@ (%@)";
+"text_return_reason" = "Return reason: %@";
+"text_return_date_added" = "Date sumitted: %@";
+"text_date" = "Date: %@";
+"text_return_message" = "Message: %@";
+
+// Account Return Form VC
+"text_account_return_form_title" = "Return Request";
+"label_account_return_form_telephone" = "Telephone";
+"label_account_return_form_opened" = "Opened";
+"label_account_return_form_quantity" = "Quantity";
+"label_account_return_form_reason" = "Return reason";
+"label_account_return_form_comment" = "Descriptions";
+"text_item_name" = "Item name: %@";
+"text_order_id" = "Order ID: %@";
+"toast_get_return_reason_failed" = "No return reason loaded, try again later.";
+"toast_return_enter_telephone" = "Please enter phone number";
+"toast_return_enter_aty" = "Please enter return quantity";
+"toast_return_enter_reason" = "Please select a return reason";
+"toast_return_submitted" = "Your return request has been submitted";
+
+// Account Address List VC
+"text_address_book" = "Address Book";
+"button_new_address" = "New";
+"alert_delete_address" = "Are you sure to delete this address? - %@";
+"button_delete_address" = "Delete Address";
+
+// Account Address Form VC
+"text_edit_address" = "Edit Address";
+"text_new_address" = "New Address";
+"label_default_address" = "Default address";
+"label_enter_fullname" = "Fullname";
+"label_enter_firstname" = "Firstname";
+"label_enter_lastname" = "Lastname";
+"label_enter_telephone" = "Telephone";
+"label_enter_postcode" = "Postcode";
+"label_input_city" = "City";
+"toast_select_country" = "Please select country";
+"toast_select_zone" = "Please select zone";
+"toast_select_city" = "Please select city";
+"toast_select_county" = "Please select county";
+"toast_select_location" = "Please select Country / State";
+"toast_input_city" = "Please enter city";
+"toast_enter_address1" = "Please enter address1";
+"toast_enter_address2" = "Please enter address2";
+"toast_address_save_success" = "Address updated";
+"toast_new_address_save_success" = "New address added";
+
+// Account Coupon VC
+"text_coupon_list" = "Coupons";
+"text_coupon_condition_no_total" = "  Orders over: %d  ";
+
+// Account Reward VC
+"text_account_reward_title" = "Rewards";
+
+// Search VC
+"label_search_keyword_title" = "Hot Seach";
+
+// Category VC
+"button_category_sort_general" = "Default";
+"button_category_sort_sales" = "Sales";
+"button_category_sort_price" = "Price";
+"button_category_sort_rating" = "Rating";
+"button_filter" = "Filter";
+"label_brand" = "Brands";
+"empty_category_no_product" = "No product found.";
+
+// Product VC
+"text_add_to_cart" = "Add To Cart";
+"text_quantity" = "Quantity";
+"text_minimum_qty" = "(minimum qty is %d)";
+"text_rewards" = "Reward points: %d";
+"text_stock" = "Stock";
+"text_stock_number" = "%d";
+"text_views" = "Viewed";
+"text_view_number" = "%d";
+"text_options" = "Quantity / Options";
+"text_options_number" = "%d";
+"button_product_add_to_cart" = "Add to Cart";
+"button_product_add_to_cart_out_of_stock" = "Out of Stock";
+"button_product_wishlist_no" = "Wishlist";
+"button_product_wishlist_yes" = "Wistlist";
+"button_product_cart" = "Cart";
+"button_product_chat" = "Chat";
+"text_back_to_product_detail_state_idle" = "Back to item details";
+"text_back_to_product_detail_state_pulling" = "Release to go back";
+"text_back_to_product_detail_state_refreshing" = "Back to item details";
+"text_added_to_cart" = "Added to cart";
+"text_related_products" = "Related Products";
+
+// Product Reviews VC
+"text_product_reviews_title" = "Reviews";
+"empty_no_reviews" = "No reviews yet";
+
+// Cart VC
+"text_cart_title" = "Cart";
+"text_edit_mode_end" = "Done";
+"text_edit_mode_edit" = "Edit";
+"button_cart_select_all" = "  All";
+"label_cart_calculating" = "Calculating...";
+"label_cart_exclude_shipping_fee" = "(Ex. shipping fee)";
+"text_checkout_button_delete" = "Delete";
+"text_checkout_button_checkout" = "Checkout";
+"text_bottom_subtotal" = "Subtotal: %@";
+"text_cart_empty" = "No item in cart";
+"text_unit_price_with_number" = "Price: %@";
+"text_subtotal_with_number" = "Subtotal: %@";
+"error_no_item_selected_to_delete" = "Please select product to delete";
+"text_sure_to_delete_items" = "Are you sure to remove products from cart?";
+"text_sure_to_delete_items_title" = "Confirm";
+"error_no_items_selected_to_checkout" = "Please select a product to checkout";
+"error_checkout_system_error" = "System error, try again";
+"error_checkout_no_product" = "Order error [no product], try again";
+
+// Checkout VC
+"text_checkout_title" = "Checkout";
+"text_checkout_bottom_total" = "Total: %@";
+"label_coupon" = "Coupon";
+"label_voucher" = "Voucher";
+"label_rewards" = "Reward points";
+"label_comment" = "Comment";
+"label_used_yes" = "Used";
+"label_used_no" = "Not used";
+"text_no_comment" = "No comment";
+"label_shipping_method" = "Shipping method";
+"label_payment_method" = "Payment method";
+"label_checkout_total_calculating" = "Calculating...";
+"button_checkout_submit" = "Submit Order";
+"error_no_address" = "Please add an address";
+"error_no_shipping_method" = "Please select shipping method";
+"error_no_payment_method" = "Please select payment method";
+
+// Checkout Shipping Address VC
+"text_checkout_shipping_address_title" = "Shipping Address";
+"button_checkout_shipping_address_new" = "New";
+"empty_no_address" = "No address found, add one now.";
+"message_shipping_address_changed" = "Shipping Address has changed";
+
+// Checkout Shipping Method VC
+"text_checkout_shipping_method_title" = "Shipping Methods";
+"toast_shipping_method_changed" = "Shipping method has changed";
+
+// Checkout Payment Method VC
+"text_checkout_payment_method_title" = "Payment Methods";
+"toast_payment_method_changed" = "Payment method has changed";
+"error_weixin_not_installed_title" = "Install Wechat";
+"error_weixin_not_installed_message" = "Please install wechat to continue payment";
+"error_paypal_no_rmb_title" = "Paypal No RMB";
+"error_paypal_no_rmb_message" = "Sorry, Paypal does not accept RMB.";
+
+// Checkout Coupon VC
+"text_checkout_coupon_title" = "Coupons";
+"empty_coupon" = "No coupon available";
+"text_coupon_condition" = "%@ (Orders over: %d)";
+"text_discount_rate" = "%.01f%% OFF";
+"toast_coupon_changed" = "Coupon has changed";
+
+// Checkout Voucher VC
+"text_checkout_voucher_title" = "Voucher";
+"toast_enter_voucher" = "Please enter voucher code";
+"toast_voucher_added" = "Voucher code has been added";
+
+// Checkout Rewards VC
+"text_checkout_rewards_title" = "Reward Points";
+"toast_enter_rewards" = "Please enter rewrd points";
+"toast_rewards_added" = "Reward points has been added";
+"text_rewards_info" = "Total points: %ld, available for this order: %ld";
+
+// Checkout Comment VC
+"text_checkout_comment_title" = "Order Comment";
+"text_no_comment" = "No comment";
+"placeholder_comment_input" = "Please enter comment";
+"toast_enter_comment" = "Please enter comment";
+"toast_comment_added" = "Comment has been added";
+
+// Payment Connect VC
+"text_payment_connect_title" = "Payment";
+"label_payment_connect_total" = "Total";
+"label_payment_connect_order_id" = "Order ID: #%@";
+"label_payment_connect_payment_method" = "Payment method: %@";
+"label_payment_connect_prepare" = "Preparing...";
+"button_payment_connect_try_again" = "Try Again";
+"button_payment_connect_cancel" = "Pay Later";
+"toast_payment_connect_upgrade" = "You App does not support this payment method, please upgrade your App.";
+"toast_payment_connect_cancel" = "Payment has been canceled.";
+"title_bank_info" = "Please send your payment to:";
+"button_copy_bank_info" = "[Copy Information]";
+"toast_bank_info_copied" = "Information copied.";
+
+// Payment result status
+"error_payment_result_failed" = "Payment failed, please try again.";
+"error_payment_result_canceled" = "Payment canceled, please try again.";
+"error_payment_result_no_network" = "Network error, please try again.";
+"error_payment_result_general" = "Payment failed.";
+
+// Payment Stripe
+"toast_stripe_param_error" = "Stripe param error.";
+"button_new_credit_card" = "New Card";
+"label_new_credit_card" = "New Card";
+"label_save_credit_card" = "Remember";
+"label_select_credit_card" = "Select Card";
+"text_select_credit_card_confirm" = "Are you sure to pay with card: %@?";
+"toast_cancel_payment_confirm" = "Are you sure to quit payment?";
+
+// GDLocationPickerView
+"gd_location_picker_view_ok" = "  OK  ";
+"gd_location_picker_view_cancel" = "  Cancel  ";
+
+// Product Review Header Cell
+"label_cell_product_review_title" = "Customer Reviews";
+
+// Product Review All Cell
+"label_cell_product_review_all" = "View all reviews";
+
+// Product Description Cell
+"label_cell_product_description_title" = "Pull Up to View Item Description";
+
+// Checkout Coupon Summary Cell
+"label_cell_account_reward_summary_title" = "My reward points:";
+
+// Checkout Address Empty Cell
+"label_cell_checkout_address_empty" = "Click to add a shipping address";
+
+// Account Unreviewed Cell
+"label_cell_account_unreviewed" = "Write a review";
+
+// Account Return List Cell
+"label_cell_account_return_item_details" = "View Details";
+
+// Account Address Cell
+"button_cell_account_address_default" = " Default address";
+"button_cell_account_address_edit" = " Edit";
+"button_cell_account_address_delete" = " Delete";
+
+// Account Order Header Cell
+"label_cell_account_home_order_header_title" = "My Orders";
+"label_cell_account_home_order_header_subtitle" = "All orders";
+
+// Account Order Info Product Cell
+"button_cell_account_order_info_product_return" = "Returns";
+
+// Account Order List Action Pending Cell
+"button_cell_account_order_list_action_pending_pay" = "  Payment  ";
+"button_cell_account_order_list_action_pending_cancel" = "  Cancel Order  ";
+
+// Account Order List Action Complete Cell
+"button_cell_account_order_list_action_complete_view_order" = "  View Order  ";
+"button_cell_account_order_list_action_complete_express" = "  Tracking  ";
+
+// Account Order List Action Shipped Cell
+"button_cell_account_order_list_action_shipped_complete" = "  Complete Order  ";
+"button_cell_account_order_list_action_shipped_express" = "  Tracking  ";
+
+// Special Label
+"label_special_discount" = "Special Price";
+"label_special_number" = "%d%% OFF";
+

@@ -1,0 +1,551 @@
+/* 
+  Localizable.strings
+  OpenCartClient
+
+  Created by Sam Chen on 8/28/16.
+  Copyright © 2016 opencart.cn. All rights reserved.
+*/
+
+// AppDelegate
+"toast_app_delegate_token_invalid" = "更新用户身份失败，请退出重启。";
+"button_app_delegate_restart" = "重启";
+"toast_token_expired" = "用户身份过期，请重新登录！";
+
+// General
+"text_all" = "查看所有";
+"text_search_placeholder" = "请输入关键字搜索";
+"text_cancel" = "取消";
+"button_cancel" = "取消";
+"text_ok" = "好的";
+"text_default" = "默认";
+"text_delete" = "删除";
+"text_empty_default" = "没有内容";
+"button_refresh" = "刷新";
+"button_close" = "关闭";
+"button_confirm" = "确定";
+"button_continue" = "继续";
+"button_back" = "返回";
+"button_search" = "搜索";
+"text_camera" = "拍照";
+"button_copy" = "点击复制";
+"button_later" = "稍候查看";
+"button_view_pdf" = "打开 PDF";
+"text_photo_album" = "我的相册";
+"error_refresh_failed" = "刷新失败，点击重试~~";
+"label_select_location" = "选择地区";
+"label_please_select" = "--请选择--";
+"button_send_sms" = "发送验证码";
+"label_sms_state_sending" = "正在发送...";
+"toast_share_success" = "分享成功";
+"toast_share_failed" = "分享失败";
+"title_select_mobile_region" = "请选择国家或地区";
+"label_new_version_title" = "版本更新";
+"text_new_version_message" = "发现新版本，旧版本已停止使用，请升级至最新版本！";
+"button_new_version" = "立即更新";
+"button_all" = "全部";
+
+// Tabbar VC
+"text_tab_home" = "首页";
+"text_tab_search" = "搜索";
+"text_tab_category" = "分类";
+"text_tab_cart" = "购物车";
+"text_tab_account" = "个人中心";
+"text_tab_discovery" = "发现";
+
+// Network
+"error_api_failed" = "服务器返回数据异常，请稍候重试！";
+"error_network_disconnected" = "无网络连接！";
+"error_unauthorized" = "身份验证失败，请重新登录！";
+"error_500" = "服务器开小差了！";
+
+// Home VC
+"toast_home_load_failed" = "首页暂时开小差了，下拉刷新试试";
+
+// Account VC
+"button_login" = "登录/注册";
+"text_account_reward" = "我的积分";
+"text_account_coupon" = "我的优惠券";
+"text_account_orders" = "我的订单";
+"text_account_return" = "维修售后";
+"text_account_wishlist" = "我的收藏";
+"text_account_edit" = "修改账号信息";
+"text_account_password" = "修改密码";
+"text_account_address" = "收货地址管理";
+"text_account_chat" = "联系客服";
+"text_account_logout" = "退出登录";
+"alert_logout" = "您确认要退出登录吗？";
+"text_change_profile_picture" = "更换头像";
+"text_order_status_unpaid" = "待付款";
+"text_order_status_unshipped" = "待发货";
+"text_order_status_shipped" = "待收货";
+"text_order_status_unreviewed" = "待评价";
+"text_order_status_wishlist" = "我的收藏";
+"text_order_status_return" = "维修售后";
+"text_unknown" = "未知";
+"text_none" = "无";
+
+// Account Wishlist VC
+"text_account_wishlist_title" = "我的收藏";
+"empty_wishlist_list" = "收藏夹还没有商品哟~~";
+
+// Account Login VC
+"text_account_login_title" = "登录";
+"text_account_login_username" = " 账  号";
+"text_account_login_password" = " 密  码";
+"label_account_login_username" = "请输入邮箱地址";
+"label_account_login_telephone" = "请输入手机号码";
+"label_account_login_username_telephone" = "请输入邮箱地址/手机号码";
+"label_account_login_password" = "请输入密码";
+"button_account_login" = "登录";
+"button_account_login_register" = "新用户注册";
+"button_account_login_reset_password" = "重设密码";
+"toast_login_input_account" = "请输入账号";
+"toast_login_input_password" = "请输入密码";
+"toast_login_success" = "登录成功";
+"label_account_login_social" = "其它登录方式";
+"toast_account_login_wechat" = "获取微信用户信息失败，请重试！";
+"toast_account_login_qq" = "获取 QQ 用户信息失败，请重试！";
+"toast_account_login_weibo" = "获取微博用户信息失败，请重试！";
+"toast_account_login_facebook" = "获取 Facebook 用户信息失败，请重试！";
+"toast_account_login_twitter" = "获取 Twitter 用户信息失败，请重试！";
+"toast_account_login_error_format" = "登录失败，服务器返回数据格式错误";
+"text_telephone_login" = "手机登录";
+
+// Account Connect VC
+"label_account_connect_vc_title" = "账号绑定";
+"label_account_connect_welcome" = "欢迎: %@";
+"label_account_connect_notice" = "为了给您更好的服务，请关联一个我们的账号";
+"label_account_connect_register" = "还没有账号？";
+"button_account_connect_register" = "快速注册";
+"label_account_connect_connect" = "已有账号？";
+"button_account_connect_connect" = "关联账号";
+
+// Account Register VC
+"label_field_type_email" = "请输入邮箱地址";
+"label_field_type_email_invalid" = "邮箱地址格式不正确，请重新输入！";
+"label_field_type_name" = "请输入姓名";
+"label_field_type_fullname" = "请输入姓名";
+"label_field_type_firstname" = "请输入名字";
+"label_field_type_lastname" = "请输入姓氏";
+"label_field_type_company" = "请输入公司名称";
+"label_field_type_mobile" = "请输入手机号码";
+"label_field_type_mobile_invalid" = "请输入正确的手机号码";
+"label_field_type_mobile_taken" = "此手机号码已注册，请尝试登录或找回密码";
+"label_field_type_telephone" = "请输入联系电话";
+"label_field_type_sms_code" = "请输入短信验证码";
+"label_field_type_city" = "请输入城市";
+"label_field_type_address" = "请输入地址";
+"label_field_type_address_1" = "请输入地址";
+"label_field_type_address_2" = "请输入地址2";
+"label_field_type_password" = "请输入密码";
+"label_field_type_newsletter" = "订阅邮件列表";
+"label_field_type_department" = "-- 请选择机构 --";
+"toast_field_type_department_required" = "请选择机构";
+"label_field_type_research" = "-- 请选择专业领域 --";
+"toast_field_type_research_required" = "请选择专业领域";
+"label_field_type_location" = "-- 请选择区域 --";
+"toast_field_type_location_required" = "请选择区域";
+"toast_field_type_custom_field_required" = "%@ 不能为空！";
+"label_field_type_is_default" = "默认地址";
+"label_field_type_postcode" = "请输入邮编";
+
+"text_account_register_email_title" = "邮箱注册";
+"text_account_register_mobile_title" = "手机注册";
+"label_account_register_firstname" = "请输入您的姓名";
+"label_account_register_newsletter" = "订阅本站动态";
+"label_account_register_input_telephone" = "手机号码";
+"toast_register_input_telephone" = "请输入手机号码";
+"toast_register_input_email" = "请输入邮箱地址";
+"toast_register_email_invalid" = "邮箱地址格式不正确，请重新输入！";
+"toast_register_input_telephone_invalid" = "请输入正确的手机号码";
+"toast_register_input_sms_code" = "请输入短信验证码";
+"toast_register_input_fullname" = "请输入您的姓名";
+"toast_register_input_firstname" = "请输入您的姓名";
+"toast_register_input_lastname" = "请输入您的姓氏";
+"toast_register_input_password" = "请输入密码";
+"toast_register_input_confirm" = "请输入确认密码";
+"toast_register_input_password_diff" = "两次输入的密码不同";
+"toast_register_telephone_taken" = "此手机号码已注册，请尝试登录或找回密码";
+"toast_register_sms_sent" = "短信已发送，请注意查收！";
+"toast_register_sms_sent_error" = "短信发送失败，请稍候再试！";
+"text_register_sms_wait" = "%@ 秒重发";
+"toast_register_success" = "注册成功！";
+
+// Account Edit VC
+"text_account_edit" = "修改账户信息";
+"text_account_edit_firstname" = "您的姓名";
+"text_account_edit_email" = "邮箱地址";
+"text_account_edit_telephone" = "联系电话";
+"toast_account_edit_success" = "账户信息修改成功";
+
+// Account Password VC
+"text_account_password_title" = "修改密码";
+"label_old_password" = "输入旧密码";
+"label_new_password" = "输入新密码";
+"label_new_password_confirm" = "确认新密码";
+"toast_enter_old_password" = "请输入旧密码";
+"toast_enter_new_password" = "请输入新密码";
+"toast_password_change_success" = "密码修改成功";
+
+// Account Settings VC
+"text_account_setting_title" = "设置";
+"label_account_setting_cache" = "清除图片缓存";
+"label_account_setting_about" = "关于我们";
+"label_account_setting_language" = "语言环境";
+"label_account_setting_cache_calculating" = "计算中";
+"toast_image_cache_clear_success" = "图片缓存清除成功";
+"toast_version_check" = "已是最新版本";
+"toast_logout_success" = "您已退出登录！";
+
+// Account About VC
+"text_about" = "关于我们";
+"text_account_about_slogan" = "基于 OpenCart 的移动商城客户端";
+"text_account_about_copyright" = "Copyright 2015 - 2018";
+"text_account_about_link_title" = "www.opencart.cn";
+"text_account_about_link_url" = "http://www.opencart.cn";
+"text_account_about_company" = "成都光大网络科技有限公司";
+
+// Account Language VC
+"text_account_language_title" = "多语言";
+
+// Account Reset Password VC
+"text_account_reset_password_title" = "重设密码";
+"button_account_reset_password_mobile" = "通过手机短信重设密码";
+"button_account_reset_password_email" = "通过邮箱重设密码";
+"help_account_reset_password_email" = "请输入您注册账户时填写的电子邮箱地址，点击继续。您的新密码将通过电子邮件发送给您";
+"help_account_reset_password_mobile" = "请输入您注册账户时填写的手机号码，点击继续。您的新密码将通过手机短信发送给您";
+"label_account_reset_password_email" = "请输入邮箱地址";
+"label_account_reset_password_mobile" = "请输入手机号码";
+"button_account_reset_password_sms" = "发送验证码";
+"label_account_reset_password_sms" = "短信验证码";
+"toast_telephone_not_registered" = "此手机还未注册，请确认手机号码后重发！";
+"toast_new_password_sent" = "新密码已通过短信发送到您的手机上，请使用新密码登录！";
+"toast_new_password_sent_email" = "新的密码已经发到了您的邮箱，请注意查收！";
+
+// Account Order List VC
+"text_order_list_title" = "我的订单";
+"button_order_type_all" = "所有订单";
+"button_order_type_unpaid" = "待付款";
+"button_order_type_unshipped" = "待发货";
+"button_order_type_shipped" = "待收货";
+"empty_no_orders" = "还没有订单哦亲~~";
+"order_number" = "订单号: %@";
+"text_order_date" = "订单日期: %@";
+"order_qty_total" = "共 %d 件商品 合计: %@";
+"alert_finish_order" = "您现在要确认收货吗？";
+"button_finish_order" = "确认收货";
+"toast_finish_order_success" = "确认收货成功";
+
+// Account Order Info VC
+"text_account_order_info_title" = "订单详情";
+"button_cancel_order" = "取消订单";
+"button_proceed_to_pay" = "去支付";
+"title_order_id" = "订单号";
+"title_order_date" = "订单日期";
+"alert_cancel_order" = "您确认要取消此订单吗？";
+"text_cancel_order" = "取消订单";
+"toast_cancel_order_success" = "订单取消成功";
+
+// Account Order Tracks VC
+"text_shipment_track_title" = "物流查询";
+"empty_not_order_tracks" = "暂时还没有物流信息";
+"text_shipped_by" = "快递公司：%@";
+"text_shipment_track_id" = "快递单号：%@";
+
+// Payment Result VC
+"text_order_success_title" = "下单成功！";
+"text_payment_success_title" = "支付成功！";
+"text_order_success_subtitle" = "订单已提交成功，您可以在个人中心查看订单详情！";
+"text_payment_success_subtitle" = "订单已支付成功，您可以在个人中心查看订单详情！";
+"text_order_fail_title" = "下单失败！";
+"text_payment_fail_title" = "支付未完成";
+"text_order_fail_subtitle" = "订单尚未提交成功，请到个人中心订单详情再次提交！";
+"text_payment_fail_subtitle" = "订单尚未支付成功，请到个人中心继续完成支付！";
+
+// Account Unreviewed List VC
+"text_account_unreviewed_list_title" = "待评价商品";
+"empty_no_unreviewed_items" = "还没有待评价的商品哦";
+
+// Account Unreviewed Form VC
+"text_account_unreviewed_form_title" = "商品评价";
+"label_account_unreviewed_form_rating" = "打分";
+"label_account_unreviewed_form_comment" = "评价内容";
+"toast_rating_number_range" = "评级分数要在 1 - 5 之间";
+"toast_review_content_min" = "请输入评价内容（最少5个字）";
+"toast_review_content_max" = "评价内容太长了（200字以内）";
+"toast_review_submit_success" = "评价提交成功，感谢您的评论！";
+
+// Account Return List VC
+"text_account_return_list_title" = "我的售后申请";
+"empty_no_return" = "没有售后申请";
+"text_return_id" = "服务单号: #%d";
+"text_status" = "状态: %@";
+
+// Account Return Info VC
+"text_account_return_info_title" = "售后申请详情";
+"title_return_description" = "问题描述";
+"title_return_progress" = "审核进度";
+"text_contact_with_phone" = "联系人：%@ (%@)";
+"text_return_reason" = "退货原因：%@";
+"text_return_date_added" = "申请日期：%@";
+"text_date" = "日期：%@";
+"text_return_message" = "留言：%@";
+
+// Account Return Form VC
+"text_account_return_form_title" = "售后申请";
+"label_account_return_form_telephone" = "联系电话";
+"label_account_return_form_opened" = "是否拆封";
+"label_account_return_form_quantity" = "商品数量";
+"label_account_return_form_reason" = "申请原因";
+"label_account_return_form_comment" = "详细描述";
+"text_item_name" = "商品名称: %@";
+"text_order_id" = "订单编号: %@";
+"toast_get_return_reason_failed" = "获取退货原因失败，请稍候再试！";
+"toast_return_enter_telephone" = "请输入联系电话";
+"toast_return_enter_aty" = "请输入商品数量";
+"toast_return_enter_reason" = "请选择申请原因";
+"toast_return_submitted" = "您的售后申请已提交";
+
+// Account Address List VC
+"text_address_book" = "收货地址管理";
+"button_new_address" = "新地址";
+"alert_delete_address" = "您确认要删除地址吗? - %@";
+"button_delete_address" = "删除地址";
+
+// Account Address Form VC
+"text_edit_address" = "编辑地址";
+"text_new_address" = "新地址";
+"label_default_address" = "设为默认地址";
+"label_enter_fullname" = "请输入您的姓名";
+"label_enter_firstname" = "请输入您的名字";
+"label_enter_lastname" = "请输入您的姓氏";
+"label_enter_telephone" = "请输入手机号码";
+"label_enter_postcode" = "请输入邮政编码";
+"label_input_city" = "请输入城市";
+"toast_select_country" = "请选择国家";
+"toast_select_zone" = "请选择省份/区域";
+"toast_select_city" = "请选择城市";
+"toast_select_county" = "请选择区县";
+"toast_select_location" = "请选择地区";
+"toast_input_city" = "请输入城市";
+"toast_enter_address1" = "请输入详细地址";
+"toast_enter_address2" = "请输入详细地址2 (选填)";
+"toast_address_save_success" = "地址修改成功";
+"toast_new_address_save_success" = "新地址已添加";
+
+// Account Coupon VC
+"text_coupon_list" = "我的优惠券";
+"text_coupon_condition_no_total" = "满 %d 元可用";
+
+// Account Reward VC
+"text_account_reward_title" = "我的积分";
+
+// Search VC
+"label_search_keyword_title" = "热门搜索";
+
+// Category VC
+"button_category_sort_general" = "综合";
+"button_category_sort_sales" = "销量";
+"button_category_sort_price" = "价格";
+"button_category_sort_rating" = "评价";
+"button_filter" = "筛选";
+"label_brand" = "品牌";
+"empty_category_no_product" = "没有找到商品哦~~";
+
+// Product VC
+"text_add_to_cart" = "加入购物车";
+"text_quantity" = "购买数量";
+"text_minimum_qty" = "%d 件起购";
+"text_rewards" = "积分兑换: %d";
+"text_stock" = "库存";
+"text_stock_number" = "%d 件";
+"text_views" = "浏览";
+"text_view_number" = "%d 次";
+"text_options" = "已选";
+"text_options_number" = "%d 件";
+"button_product_add_to_cart" = "加入购物车";
+"button_product_add_to_cart_out_of_stock" = "无库存";
+"button_product_wishlist_no" = "收藏";
+"button_product_wishlist_yes" = "已收藏";
+"button_product_cart" = "购物车";
+"button_product_chat" = "联系客服";
+"text_back_to_product_detail_state_idle" = "下拉返回商品详情";
+"text_back_to_product_detail_state_pulling" = "松开返回商品详情";
+"text_back_to_product_detail_state_refreshing" = "返回商品详情";
+"text_added_to_cart" = "已加入购物车";
+"text_related_products" = "相关商品";
+
+// Product Reviews VC
+"text_product_reviews_title" = "所有评价";
+"empty_no_reviews" = "还没有评论哦~~";
+
+// Cart VC
+"text_cart_title" = "购物车";
+"text_edit_mode_end" = "完成";
+"text_edit_mode_edit" = "编辑";
+"button_cart_select_all" = "  全选";
+"label_cart_calculating" = "计算中";
+"label_cart_exclude_shipping_fee" = "(不含运费)";
+"text_checkout_button_delete" = "删除";
+"text_checkout_button_checkout" = "提交订单";
+"text_bottom_subtotal" = "支付金额: %@";
+"text_cart_empty" = "购物车里没有商品哟~";
+"text_unit_price_with_number" = "单价: %@";
+"text_subtotal_with_number" = "小计: %@";
+"error_no_item_selected_to_delete" = "您没有选择要删除的商品哦";
+"text_sure_to_delete_items" = "您确认要从购物车中删除这些商品吗？";
+"text_sure_to_delete_items_title" = "确认删除";
+"error_no_items_selected_to_checkout" = "您没有选择要结算的商品哦";
+"error_checkout_system_error" = "订单系统异常，请稍候重试";
+"error_checkout_no_product" = "订单异常[无商品]，请稍候重试";
+
+// Checkout VC
+"text_checkout_title" = "提交订单";
+"text_checkout_bottom_total" = "支付金额: %@";
+"label_coupon" = "优惠券";
+"label_voucher" = "礼品卡";
+"label_rewards" = "使用积分";
+"label_comment" = "订单留言";
+"label_used_yes" = "已使用";
+"label_used_no" = "未使用";
+"text_no_comment" = "无留言";
+"label_shipping_method" = "配送方式";
+"label_payment_method" = "支付方式";
+"label_checkout_total_calculating" = "计算中";
+"button_checkout_submit" = "提交订单";
+"error_no_address" = "请先添加收货地址";
+"error_no_shipping_method" = "请选择配送方式";
+"error_no_payment_method" = "请选择支付方式";
+
+// Checkout Shipping Address VC
+"text_checkout_shipping_address_title" = "收货地址";
+"button_checkout_shipping_address_new" = "新地址";
+"empty_no_address" = "还没有地址，马上添加一个吧~~";
+"message_shipping_address_changed" = "收货地址已更改";
+
+// Checkout Shipping Method VC
+"text_checkout_shipping_method_title" = "配送方式";
+"toast_shipping_method_changed" = "发货方式已更改";
+
+// Checkout Payment Method VC
+"text_checkout_payment_method_title" = "支付方式";
+"toast_payment_method_changed" = "支付方式已更改";
+"error_weixin_not_installed_title" = "安装微信";
+"error_weixin_not_installed_message" = "此订单将使用微信支付，请先安装微信";
+"error_paypal_no_rmb_title" = "Paypal";
+"error_paypal_no_rmb_message" = "抱歉，Paypal 不支持人民币付款，请选择其它支付方式！";
+
+// Checkout Coupon VC
+"text_checkout_coupon_title" = "优惠券";
+"empty_coupon" = "没有可用的优惠券~~";
+"text_coupon_condition" = "%@ (满 %d 元可用)";
+"text_discount_rate" = "%.01f折";
+"toast_coupon_changed" = "优惠券已更改";
+
+// Checkout Voucher VC
+"text_checkout_voucher_title" = "礼品卡";
+"toast_enter_voucher" = "请输入礼品卡号码";
+"toast_voucher_added" = "礼品卡已添加成功";
+
+// Checkout Rewards VC
+"text_checkout_rewards_title" = "使用积分";
+"toast_enter_rewards" = "请输入积分数量";
+"toast_rewards_added" = "积分已添加成功";
+"text_rewards_info" = "总积分: %ld, 本次最多可用: %ld";
+
+// Checkout Comment VC
+"text_checkout_comment_title" = "订单留言";
+"text_no_comment" = "无留言";
+"placeholder_comment_input" = "请输入留言内容";
+"toast_enter_comment" = "请输入留言内容";
+"toast_comment_added" = "订单留言已保存";
+
+// Payment Connect VC
+"text_payment_connect_title" = "订单支付";
+"label_payment_connect_total" = "支付金额";
+"label_payment_connect_order_id" = "订单编号：#%@";
+"label_payment_connect_payment_method" = "支付方式：%@";
+"label_payment_connect_prepare" = "准备中，请稍候...";
+"button_payment_connect_try_again" = "再试一次";
+"button_payment_connect_cancel" = "稍候再付";
+"toast_payment_connect_upgrade" = "当前版本不支持订单所选的支付方式，请升级至最新版本！";
+"toast_payment_connect_cancel" = "支付已被取消！";
+"title_bank_info" = "请将订单款项转入以下银行账号：";
+"button_copy_bank_info" = "[点击复制]";
+"toast_bank_info_copied" = "银行账号信息已复制";
+
+// Payment result status
+"error_payment_result_failed" = "订单支付失败，请重新支付！";
+"error_payment_result_canceled" = "支付已被取消，请重新支付！";
+"error_payment_result_no_network" = "网络连接出错，请重新支付！";
+"error_payment_result_general" = "支付失败！";
+
+// Payment Stripe
+"toast_stripe_param_error" = "Stripe 参数不正确！";
+"button_new_credit_card" = "使用新卡";
+"label_new_credit_card" = "使用新卡";
+"label_save_credit_card" = "记住卡片";
+"label_select_credit_card" = "选择卡片";
+"text_select_credit_card_confirm" = "确定要使用 %@ 的卡片支付吗？";
+"toast_cancel_payment_confirm" = "确定要退出支付吗？";
+
+// GDLocationPickerView
+"gd_location_picker_view_ok" = "  确定  ";
+"gd_location_picker_view_cancel" = "  取消  ";
+
+// Product Review Header Cell
+"label_cell_product_review_title" = "商品评价";
+
+// Product Review All Cell
+"label_cell_product_review_all" = "所有评价";
+
+// Product Description Cell
+"label_cell_product_description_title" = "上拉查看图文详情";
+
+// Checkout Coupon Summary Cell
+"label_cell_account_reward_summary_title" = "我的奖励积分总数为：";
+
+// Checkout Address Empty Cell
+"label_cell_checkout_address_empty" = "您的收货地址为空，点击添加收货地址";
+
+// Account Unreviewed Cell
+"label_cell_account_unreviewed" = "我要评价";
+
+// Account Return List Cell
+"label_cell_account_return_item_details" = "进度查询";
+
+// Account Address Cell
+"button_cell_account_address_default" = " 默认地址";
+"button_cell_account_address_edit" = " 编辑";
+"button_cell_account_address_delete" = " 删除";
+
+// Account Order Header Cell
+"label_cell_account_home_order_header_title" = "我的订单";
+"label_cell_account_home_order_header_subtitle" = "查看全部订单";
+
+// Account Order Info Product Cell
+"button_cell_account_order_info_product_return" = "申请售后";
+
+// Account Order List Action Pending Cell
+"button_cell_account_order_list_action_pending_pay" = "  继续支付  ";
+"button_cell_account_order_list_action_pending_cancel" = "  取消订单  ";
+
+// Account Order List Action Complete Cell
+"button_cell_account_order_list_action_complete_view_order" = "  查看订单  ";
+"button_cell_account_order_list_action_complete_express" = "  查看物流  ";
+
+// Account Order List Action Shipped Cell
+"button_cell_account_order_list_action_shipped_complete" = "  确认收货  ";
+"button_cell_account_order_list_action_shipped_express" = "  查看物流  ";
+
+// Special Label
+"label_special_discount" = "限时特价";
+"label_special_number" = "限时%d折";
+
+// Full screen image vc
+"text_save_image" = "保存图片";
+"text_save_image_desc" = "将图片保存至您的相册";
+"button_save" = "保存";
+"toast_save_image_unauthorized" = "没有权限保存图片";
+"toast_save_image_error" = "图片保存失败";
+"toast_save_image_success" = "图片已保存至您的相册";

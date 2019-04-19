@@ -1,0 +1,97 @@
+//
+//  PrefixHeader.pch
+//  OpenCartClient
+//
+//  Created by Sam Chen on 04/01/2017.
+//  Copyright © 2017 opencart.cn. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "System.h"
+#import "Network.h"
+#import "Masonry.h"
+#import "UIColor+fromHex.h"
+#import "MBProgressHUD+GDStyle.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "UIImageView+LazyLoad.h"
+
+//////////////// ===================================== ////////////////
+//////////////// ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ ////////////////
+//////////////// ===================================== ////////////////
+
+#define CONFIG_WEB_URL @"https://mall.opencart.cn/" //Site base url
+#define CONFIG_API_URL @"https://restapi.opencart.cn/v1/" //API base url
+
+//#define CONFIG_WEB_URL @"http://192.168.0.18/upload/" //Site base url
+//#define CONFIG_API_URL @"http://192.168.0.18/v1/" //API base url
+
+//#define CONFIG_WEB_URL @"http://www.khshoplife.com/" //Site base url
+//#define CONFIG_API_URL @"http://khshopapi.guangdayun.cc/v1/" //API base url
+
+#define CONFIG_DEFAULT_CN_CURRENCY @"CNY"; // Default currency for Simplified Chinese
+#define CONFIG_DEFAULT_EN_CURRENCY @"USD"; // Default currency for English
+#define CONFIG_PRIMARY_COLOR [UIColor colorWithRed:0.95 green:0.33 blue:0.33 alpha:1.0] // Primary color @"F15353"
+#define CONFIG_CATEGORY_ALL_STYLE 1 // 1 = sidebar style, 2 = flat style
+#define CONFIG_SOCIAL_LOGIN_ENABLED YES // Social login status
+
+#define CONFIG_IMAGE_FADE_IN_DURATION 0.6f // Image lazy load fade in time (second)
+#define CONFIG_HUD_BG_COLOR [UIColor colorWithRed:0 green:0 blue:0 alpha:0.2] // Toaster background color
+#define CONFIG_GENERAL_BG_COLOR [UIColor colorWithRed:.937 green:.937 blue:.937 alpha:1.] // General background color @"EFEFEF"
+#define CONFIG_GENERAL_BORDER_RADIUS 4.0f // General border radius
+#define CONFIG_DEFAULT_SEPARATOR_LINE_COLOR [UIColor colorWithRed:0.87 green:0.87 blue:0.87 alpha:1.0] // @ Table cell separator line: "DEDEDE"
+#define CONFIG_OUT_OF_STOCK_STAMP NO // 是否在商品列表和商品详情	图片上显示 OUT OF STOCK 图标
+
+#define CONFIG_MOBILE_INTERNATIONAL YES // YES = Send SMS to all countries, NO = Just default country
+#define CONFIG_DEFAULT_MOBILE_REGION_CODE @"CN" // Default region code for mobile number verification
+
+#define CONFIG_ADDRESS_CHINA_FORMAT NO // 是否使用中国地址格式（包含省、市、县，国家默认不显示），设置为 NO 时使用国际地址格式（国家、省、市为文本输入框，包含 Address 2）
+
+#define CONFIG_ANALYTICS_DRIVER @"baidu" // baidu
+#define CONFIG_BAIDU_TRACKING_APPID_DEBUG @"79e043fedb"
+#define CONFIG_BAIDU_TRACKING_APPID_LIVE @"198defc50c"
+#define CONFIG_GOOGLE_TRACKING_APPID @""
+
+#define CONFIG_BEARYCHAT_HOOK @"https://hook.bearychat.com/=bw9wt/incoming/176806d04dda0a0018947b6c59dd4a4b" // BearyChat hook address
+#define CONFIG_BEARYCHAT_CHANNEL @"SamDev" // BearyChat channel
+
+#define CONFIG_JPUSH_KEY @"8195e5378ba86dc3f3de3a19" // JPUSH Key: https://www.jiguang.cn/
+
+#define CONFIG_ALIPAY_SDK_SCHEME @"AlipayBasedOpenCartClient" // 此字符串同时需要在项目设置的 Info -> URL types 中配置
+
+#define CONFIG_PAYPAL_SANDBOX_MODE NO // Paypal Sandbox mode
+#define CONFIG_PAYPAL_CLIENT_ID @"AfSsnIuQRTS3eG5J21OAC4CESWdVOc40kkSx0n1rNxVtYmYr1KjlW6WbBPo9A97qLwT9EMU5eHNnLf76" // Paypal Client ID
+
+#define CONFIG_STRIPE_LIVE_MODE YES // Stripe mode
+#define CONFIG_STRIPE_TEST_KEY @"pk_test_SCZHwF9YOVFkaXoqtAt1u5BE" // Stripe test key
+#define CONFIG_STRIPE_LIVE_KEY @"pk_live_g92SWAogbhvBbFcq1K7qQ1SD" // Stripe live key
+
+#define CONFIG_PRODUCT_SHARE_ENABLED YES // Share button on product VC
+
+#define CONFIG_WECHAT_SDK_SCHEME @"wx9899567a56d84b70" // 此字符串同时需要在项目设置的 Info -> URL types 中配置
+#define CONFIG_WECHAT_SDK_SCHEME_DESC @"OCMobile"
+#define CONFIG_WECHAT_APP_SECRET @"adb4d36996dd5e09be3247460c556906"
+#define CONFIG_WECHAT_LOGIN_AUTH_CODE_KEY @"wechat_login_auth_code"
+
+// ShareSDK key: http://www.mob.com/
+#define CONFIG_SHARESDK_APP_KEY @"29bb2a4bb7d00"
+#define CONFIG_SHARESDK_APP_SECRET @"4b4b5c588867f0fb3e242d4e094c9bf1"
+#define CONFIG_SHARESDK_WECHAT_ENABLED YES
+#define CONFIG_SHARESDK_QQ_ENABLED YES
+#define CONFIG_SHARESDK_WEIBO_ENABLED YES
+#define CONFIG_SHARESDK_FACEBOOK_ENABLED YES
+#define CONFIG_SHARESDK_TWITTER_ENABLED YES
+
+#define CONFIG_BUGLY_APPID @"2c983f2ddf" // Bugly App Id for crash report
+
+//////////////// ===================================== ////////////////
+//////////////// ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ ////////////////
+//////////////// ===================================== ////////////////
+
+// Screen sizes
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREEN_SIZE [UIScreen mainScreen].bounds.size
+
+#endif /* PrefixHeader_pch */

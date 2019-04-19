@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  OpenCartClient
+
+  Created by Sam Chen on 9/18/16.
+  Copyright © 2016 opencart.cn. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "OCMobile";
+"NSPhotoLibraryUsageDescription" = "我们需要访问照片库选择一张头像照片";
+"NSCameraUsageDescription" = "我们需要使用相机拍摄一张照片用做头像";
+"NSPhotoLibraryAddUsageDescription" = "我们需要访问照片库以保存图片";

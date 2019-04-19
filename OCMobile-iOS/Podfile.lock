@@ -1,0 +1,171 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - AXIndicatorView (0.1.1)
+  - AXNavigationBackItemInjection (0.0.2)
+  - AXPracticalHUD (2.1.4):
+    - AXIndicatorView
+  - AXWebViewController (0.7.2):
+    - Aspects
+    - AXNavigationBackItemInjection
+    - AXPracticalHUD
+    - NJKWebViewProgress
+  - BaiduMobStat (4.9.1)
+  - Bugly (2.5.0)
+  - CRToast (0.0.9)
+  - DeviceUtil (5.0.0)
+  - GoogleAnalytics (3.17.0)
+  - JCore (1.2.6)
+  - JPush (3.1.2):
+    - JCore (~> 1.2.6)
+  - JSONModel (1.7.0)
+  - libPhoneNumber-iOS (0.9.13)
+  - Masonry (1.1.0)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.15.7)
+  - mob_sharesdk (4.2.2):
+    - mob_sharesdk/ShareSDK (= 4.2.2)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.2.2):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/Facebook (4.2.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.2.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo (4.2.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/Twitter (4.2.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/WeChatFull (4.2.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKUI (4.2.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.2.1)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - PayPal-iOS-SDK/Core (2.18.1)
+  - RDVTabBarController (1.1.9)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+  - Stripe (11.5.0)
+  - WechatOpenSDK (1.8.3)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - AXWebViewController
+  - BaiduMobStat (~> 4.6)
+  - Bugly
+  - CRToast (~> 0.0.7)
+  - DeviceUtil
+  - GoogleAnalytics
+  - JPush (~> 3.1.0)
+  - JSONModel (= 1.7.0)
+  - libPhoneNumber-iOS (~> 0.8)
+  - Masonry (~> 1.1)
+  - MBProgressHUD (~> 0.9.2)
+  - MJRefresh
+  - mob_sharesdk
+  - mob_sharesdk/ShareSDKPlatforms/Facebook
+  - mob_sharesdk/ShareSDKPlatforms/QQ
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+  - mob_sharesdk/ShareSDKPlatforms/Twitter
+  - mob_sharesdk/ShareSDKPlatforms/WeChatFull
+  - mob_sharesdk/ShareSDKUI
+  - PayPal-iOS-SDK/Core
+  - RDVTabBarController (from `https://github.com/samchen945/RDVTabBarController.git`)
+  - SDWebImage (~> 4.0)
+  - Stripe
+  - WechatOpenSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Aspects
+    - AXIndicatorView
+    - AXNavigationBackItemInjection
+    - AXPracticalHUD
+    - AXWebViewController
+    - BaiduMobStat
+    - Bugly
+    - CRToast
+    - DeviceUtil
+    - GoogleAnalytics
+    - JCore
+    - JPush
+    - JSONModel
+    - libPhoneNumber-iOS
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - mob_sharesdk
+    - MOBFoundation
+    - NJKWebViewProgress
+    - PayPal-iOS-SDK
+    - SDWebImage
+    - Stripe
+    - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  RDVTabBarController:
+    :git: https://github.com/samchen945/RDVTabBarController.git
+
+CHECKOUT OPTIONS:
+  RDVTabBarController:
+    :commit: e1a8f1a5d97f1496eeb9b29dd09bb48630175bcf
+    :git: https://github.com/samchen945/RDVTabBarController.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  AXIndicatorView: 566b490a2dd9781d4ffbcc9752be9b9cdc6e728e
+  AXNavigationBackItemInjection: efe0446967f3cbcc85a9118decd1e145138912dd
+  AXPracticalHUD: 821d170b31e050c426ef8754b07b4264a8b1d861
+  AXWebViewController: 96566c473fce2806f4da696132b31777f5404c9f
+  BaiduMobStat: e2dbfd44f1535adf3c0001cbd3212eb61c4fe639
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  CRToast: 5a78c22b921c5ed3487488af605bc403a9c92fed
+  DeviceUtil: effb5fd6d301a1bd42e0ac367b3391696651431e
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  JCore: cae516dd2bf1a73b578ce6e1065abd49e709e0f7
+  JPush: d0cead70ba223a6a3b52749899ebda830dfbc49a
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  libPhoneNumber-iOS: e444379ac18bbfbdefad571da735b2cd7e096caa
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  mob_sharesdk: e36e88015480f4d0c28e99ef8875ce1e10ca3a9e
+  MOBFoundation: ce2ba976fd435b0cb06897466b2746e639895b7d
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  PayPal-iOS-SDK: 10654cd111e911a9807bddb96fae81aacb8e9915
+  RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  Stripe: 10761682d20dc491c52287393c800db056c9748d
+  WechatOpenSDK: 3117412f8aafde4758cac1e8d20b93c67cafcfef
+
+PODFILE CHECKSUM: fc6d167fef94dcc95b21c934fa6d51d5df47b8dd
+
+COCOAPODS: 1.6.1
